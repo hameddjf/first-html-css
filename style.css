@@ -1,0 +1,110 @@
+body {
+  font-family: sans-serif;
+}
+/* list selector */
+/* h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #444;
+} */
+h2,
+h3 {
+  color: rgba(31, 101, 158, 0.779);
+}
+h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-style: italic;
+  color: rgb(16, 152, 173);
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  /* ارتفاع خط یکو نیم برابر اندازه فونت خواهد بود */
+}
+li {
+  font-size: 18px;
+}
+/* descendant selector */
+/* footer p {
+  font-size: 15px;
+} */
+#copyright {
+  font-size: 15px;
+}
+
+/* article header p {
+  font-style: italic;
+} */
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ul {
+  list-style: none;
+} */
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  /* برای نحوه نمایش حاشیه هاس مثلا نقطه چین باشه یا خط تیره ولی سولید ی خط صاف و کامله solid  */
+}
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+/* li:nth-child(2) {
+} */
+/* missconception: this isnt work */
+article p:first-child {
+  background-color: red;
+}
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+/* a:visited {
+   color: #77614f; 
+} */
+a:hover {
+  color: orange;
+  text-decoration: underline orangered;
+  font-weight: bold;
+}
+/* LVHA */
+
+
+/*  */
+#copyright {
+  color: cornflowerblue;
+}
