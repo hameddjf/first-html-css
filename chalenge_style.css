@@ -47,6 +47,8 @@ body {
     background-color: #444;
     color: aliceblue;
     border: none;
+    text-transform: 20px;
+    font-size: 20px;
 }
 .add-cart:hover{
     color: black;
