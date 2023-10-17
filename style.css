@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  color: #444;
 }
 /* list selector */
 /* h1,
@@ -113,8 +114,18 @@ a:active{
 
 /* LVHA */
 
+/*
 
 /* ------------------- */
-#copyright {
+/* #copyright {
   color: cornflowerblue;
 }
+.copyright {
+  color: red;
+}
+.text {
+  color:yellow
+}
+footer p{
+  color: green;
+} */
