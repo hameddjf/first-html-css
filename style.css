@@ -83,6 +83,8 @@ li:first-child {
 li:last-child {
   font-style: italic;
 }
+
+
 /* li:nth-child(2) {
 } */
 /* missconception: this isnt work */
@@ -101,10 +103,18 @@ a:hover {
   text-decoration: underline orangered;
   font-weight: bold;
 }
+
+a:active{ 
+  background-color: black;
+  font-style: italic;
+ }
+
+
+
 /* LVHA */
 
 
-/*  */
+/* ------------------- */
 #copyright {
   color: cornflowerblue;
 }
