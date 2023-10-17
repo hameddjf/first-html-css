@@ -45,7 +45,7 @@ body {
 .add-cart {
     background-color: #444;
     color: aliceblue;
-    font-size: larger;
+    border: none;
 }
 .add-cart:hover{
     color: black;
